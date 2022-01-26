@@ -1,0 +1,39 @@
+.container-header{
+  border: 30px solid rgb(250, 123, 5);
+
+}
+
+.title{
+  padding-left: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: blue;
+}
+.container-scroll{
+  
+  border-color: black;
+  border-style: groove;
+  padding-left: 20px;
+  border-radius: 4ch;
+  padding-left: 10ch;
+
+}
+
+
+.container-noticias{
+  border-color: black;
+  border-style: groove;
+  background-color: orange;
+  padding-left: 10ch;
+  height: 40ch;
+}
+
+
+
+.footer{
+  border-color: black;
+  border-style: groove;
+  padding-left: 20px;
+  border-radius: 4ch;
+}
+
+
