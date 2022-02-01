@@ -1,5 +1,5 @@
 import React from "react";
-
+import logo from "../assets/Recurso 1.png"
 
 function Footer() {
 
@@ -8,8 +8,15 @@ function Footer() {
 
     return (
         <div className="footer">
+
+
             <div className="content-footer">
+                
                 <ul className="list-group">
+                <div className="logo-footer">
+                    <img src={logo} width="85" height="85"/>
+                </div>
+
                     <h2>Corporación sociedad prosperar</h2>
                     <br />
                     <li>Sede principal</li>
@@ -20,7 +27,13 @@ function Footer() {
                         14:00 A 17:30 </li>
                     <li>Teléfono: 7948475 </li>
                     <li>Celular: 3138030253 </li>
+
+                   
                 </ul>
+
+
+
+
             </div>
 
         </div>

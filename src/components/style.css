@@ -96,3 +96,11 @@ a {
 
       
   }
+  .logo-footer{
+    display: block;
+    float: right;
+    box-sizing: border-box;
+    
+    vertical-align: middle;
+
+}

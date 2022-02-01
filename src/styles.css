@@ -1,5 +1,5 @@
 .container-header{
-  border: 30px solid rgb(250, 123, 5);
+  border: 30px solid #FF6600;
 }
 
 .title{
@@ -21,7 +21,7 @@
 .container-noticias{
   border-color: black;
   border-style: groove;
-  background-color: orange;
+  background-color: #FF6600;
   padding-left: 10ch;
   height: 70ch;
   border: 0;

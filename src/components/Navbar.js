@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './style.css';
-import logo from "../assets/logo_nuevo.png"
+import logo from "../assets/LOGO.svg"
 
 
 
@@ -22,7 +22,9 @@ function Navbar() {
             <br />
             <nav className="nav">
                 <div className="logo">
-                    <img src={logo} width="400" height="75" />
+                    <img src={logo} width="80" height="85" />
+                    <br/>
+                    <h2 width='23px'>CORPORACIÓN SOCIEDAD PROSPERAR</h2>
                 </div>
 
                 {/* <a href="#" className="nav__brand">
@@ -30,13 +32,13 @@ function Navbar() {
             </a> */}
                 <ul className={active}>
                     <li className="nav__item">
-                        <a href="#" className="nav__link">
+                        <a href="/" className=" home">
                             Inicio
                         </a>
                     </li>
                     <li className="nav__item">
-                        <a href="#" className="nav__link">
-                            Mi portal
+                        <a href="../pages/institucion.js" className="nav__link">
+                            Quienes somos
                         </a>
                     </li>
                     <li className="nav__item">
@@ -45,13 +47,13 @@ function Navbar() {
                         </a>
                     </li>
                     <li className="nav__item">
-                        <a href="#" className="nav__link">
-                            Skills
+                        <a href="/services" className="nav__link">
+                            Nuestros servicios
                         </a>
                     </li>
                     <li className="nav__item">
-                        <a href="#" className="nav__link">
-                            Contacto
+                        <a href="/about" className="nav__link">
+                            Contactanos
                         </a>
                     </li>
                 </ul>
@@ -75,7 +77,7 @@ function Navbar() {
                         <div class="collapse navbar-collapse" >
                             <ul class="navbar-nav ">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Nuestra institución</a>
+                                    <a class="nav-link" href="/institucion">Nuestra institución</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Transparecia y acceso a nuestra institucion publica</a>
@@ -87,7 +89,7 @@ function Navbar() {
                                     <a class="nav-link" href="#">Participa</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Sala de prensas</a>
+                                    <a class="nav-link" href="/noticias">Sala de prensas</a>
                                 </li>
 
                             </ul>

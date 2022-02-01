@@ -1,0 +1,48 @@
+.texto-justificado{
+    text-align: justify;
+    }
+
+.mision{
+    align-items: center;
+    width: 600px;
+    float: initial;
+}
+
+.text{
+    align-items: center;
+    width: 600px;
+    float: initial;
+}
+
+.vision{
+    align-items: center;
+    width: 600px;
+    float: 30px;
+    
+}
+
+.contenido{
+    padding-left: 750px;
+}
+
+.title{
+    
+    width: 600px;
+    
+}
+.sidebar{
+
+    width: 250px;
+    background-color: white;
+    border-color: black;
+    text-align: left;
+    padding-left: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px ;
+}
+hr{
+    background-color: orangered;
+    border: lawngreen;
+    width: 90%;
+    size: 80;
+}
