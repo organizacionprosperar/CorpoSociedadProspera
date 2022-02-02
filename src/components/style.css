@@ -100,7 +100,32 @@ a {
     display: block;
     float: right;
     box-sizing: border-box;
-    
     vertical-align: middle;
+}
 
+.div_left {
+  padding: 60px 0px 30px;
+}
+
+.lista_Menu {
+  font-family: "Montserrat";
+  font-size: 1em;
+  line-height: 20px;
+  text-align: left;
+  
+}
+
+.lista_Menu li {
+  list-style: none;
+  cursor: pointer;
+  color: #212121;
+  margin-bottom: 7px;
+  border-bottom: 1px solid #074982;
+  padding: 5px 0px;
+}
+
+
+.lista_Menu li a {
+  color: #1D1D1B;
+  font-weight: bold;
 }

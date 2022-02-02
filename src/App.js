@@ -19,7 +19,7 @@ function App() {
   return (
       
     <div className="App">
-      <Router >
+    <Router >
     <Navbar  />
     <Route path="/" exact={true} component={Home} />
     <Route path="/services" exact={true} component={Services} />

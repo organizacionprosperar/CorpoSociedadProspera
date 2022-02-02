@@ -1,48 +1,64 @@
-.texto-justificado{
+.clearfix {
+    display: block;
+}
+
+.page-title h1 {
+    font-size: 3em;
+    font-family: "Montserrat";
+    color: #074982;
+    font-weight: bold;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
     text-align: justify;
-    }
-
-.mision{
-    align-items: center;
-    width: 600px;
-    float: initial;
 }
 
-.text{
-    align-items: center;
-    width: 600px;
-    float: initial;
+.div_descripcion_default {
+    color: #000000;
+    margin-bottom: 40px;
+}
+b, strong {
+    font-weight: 700;
 }
 
-.vision{
-    align-items: center;
-    width: 600px;
-    float: 30px;
-    
+.p1{
+    line-height:150%;
+    text-align: justify;
 }
 
-.contenido{
-    padding-left: 750px;
+.textSpan{
+    font-size: 16px;
 }
 
-.title{
-    
-    width: 600px;
-    
-}
-.sidebar{
 
-    width: 250px;
-    background-color: white;
-    border-color: black;
-    text-align: left;
-    padding-left: 20px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px ;
+
+.ins{
+    margin: 0 auto;
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+    width: 62%;
 }
-hr{
-    background-color: orangered;
-    border: lawngreen;
-    width: 90%;
-    size: 80;
+
+.all{
+   text-align: justify;
+   width: 85%;
+   margin-bottom: 10%;
 }
+
