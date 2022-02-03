@@ -5,14 +5,26 @@ import Sidebar from '../../components/sidebar';
 
 const Organigrama = () => {
   return (
-    <div className= "container">
-       <Sidebar />
-      <h1>Organigrama</h1>
-      <div>
-        <img src={imgOrganigrama} alt='...'></img>
-      </div>
+    <div className='ins'>
+      <Sidebar />
+      <div className='col-lg-9'>
+        <div className='all'>
 
+          <div className="page-title">
+            <h1>ORGANIGRAMA</h1>
+          </div>
+          <div className="page-content clearfix">
+            <div classname="col-md-12 div_descripcion_default alto_contraste" line-height="20px" >
+              <img src={imgOrganigrama} alt='200' width="800" height="700"></img>
+
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
+
+
   );
 };
 

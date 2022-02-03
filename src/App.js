@@ -9,6 +9,7 @@ import Noticia from './pages/Noticias/noticias';
 import objetosFunciones from './pages/nuestraInstitucion/objetosFunciones';
 import PrincipiosValores from './pages/nuestraInstitucion/principiosValores';
 import Organigrama from './pages/nuestraInstitucion/organigrama';
+import Directorio from './pages/nuestraInstitucion/directorios';
 
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
@@ -29,6 +30,7 @@ function App() {
     <Route path="/objetosFunciones" exact={true} component={objetosFunciones}/>
     <Route path="/principiosValores" exact={true} component={PrincipiosValores}/>
     <Route path="/organigrama" exact={true} component={Organigrama}/>
+    <Route path="/directorios" exact={true} component={Directorio}/>
     
     <Footer/>
     </Router>
@@ -39,4 +41,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;

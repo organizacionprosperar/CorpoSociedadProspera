@@ -7,22 +7,22 @@ function Sidebar() {
                 <div className="div_left">
                         <ul className="lista_Menu">
                             <li className="item0">
-                                <a href="">Misión y Visión</a>
+                                <a href="/institucion">Misión y Visión</a>
                             </li>
                             <li className="item1">
-                                <a href="">Objeto y Funciones</a>
+                                <a href="/objetosFunciones">Objeto y Funciones</a>
                             </li>
                             <li className="item2">
-                                <a href="">Principios y Valores</a>
+                                <a href="/principiosValores">Principios y Valores</a>
                             </li>
                             <li className="item3">
                                 <a href="">Simbolos Institucionales</a>
                             </li>
                             <li className="item4">
-                                <a href="">Organigrama</a>
+                                <a href="/organigrama">Organigrama</a>
                             </li>
                             <li className="item5">
-                                <a href="">Directorios</a>
+                                <a href="/directorios">Directorios</a>
                             </li>
                             <li className="item6">
                                 <a href="">Seccionales</a>
