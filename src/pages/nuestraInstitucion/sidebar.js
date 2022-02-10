@@ -16,7 +16,7 @@ function Sidebar() {
                                 <a href="/principiosValores">Principios y Valores</a>
                             </li>
                             <li className="item3">
-                                <a href="">Simbolos Institucionales</a>
+                                <a href="/simbolos">Simbolos Institucionales</a>
                             </li>
                             <li className="item4">
                                 <a href="/organigrama">Organigrama</a>
@@ -25,12 +25,10 @@ function Sidebar() {
                                 <a href="/directorios">Directorios</a>
                             </li>
                             <li className="item6">
-                                <a href="">Seccionales</a>
+                                <a href="/seccionales">Seccionales</a>
                             </li>
-
                         </ul>
                     </div>
-
             </div>
     );
 };

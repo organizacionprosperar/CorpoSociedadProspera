@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css'
 import './inst.css'
-import Sidebar from '../../components/sidebar';
+import Sidebar from './sidebar';
 
 const Institucion = () => {
     return (

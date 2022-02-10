@@ -1,9 +1,9 @@
 import React from 'react';
 import '../../App.css'
 
-import Sidebar from '../../components/sidebar';
+import Sidebar from './sidebar';
 
-const Organigrama = () => {
+const Directorios = () => {
     return (
         <div className='ins'>
             <Sidebar />
@@ -27,21 +27,21 @@ const Organigrama = () => {
                                     </tr>
                                     <tr>
                                         <td>Pedro Rivero</td>
-                                        <td>presidente</td>
+                                        <td>Coordinador de proyectos</td>
                                         <td>+57 310 000 0000</td>
                                         <td>pedro.rivero@corporacionsociedadprosperar.com</td>
 
                                     </tr>
                                     <tr>
                                         <td>Alba Benitez</td>
-                                        <td>presidente</td>
+                                        <td>Representante legal</td>
                                         <td>+57 310 000 0000</td>
                                         <td>alba.benitez@corporacionsociedadprosperar.com</td>
 
                                     </tr>
                                     <tr>
                                         <td>Joryeth Rivero</td>
-                                        <td>presidente</td>
+                                        <td>Asesora Juridica</td>
                                         <td>+57 310 000 0000</td>
                                         <td>joryeth.rivero@corporacionsociedadprosperar.com</td>
 
@@ -63,4 +63,4 @@ const Organigrama = () => {
     );
 };
 
-export default Organigrama;
+export default Directorios;

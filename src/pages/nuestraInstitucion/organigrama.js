@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css'
 import imgOrganigrama from '../../assets/organigrama.png';
-import Sidebar from '../../components/sidebar';
+import Sidebar from './sidebar';
 
 const Organigrama = () => {
   return (
