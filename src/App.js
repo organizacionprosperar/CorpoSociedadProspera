@@ -15,6 +15,7 @@ import Simbolos from './pages/nuestraInstitucion/Simbolos';
 import noticias from './pages/Noticias/noticias';
 
 
+
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // import Home from './pages/home.js';
 // import About from './pages/about.js';
