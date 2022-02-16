@@ -85,7 +85,8 @@
 
 .slider-card-description{
   opacity: 0.5;
-  font-size: 13px;  
+  font-size: 13px;
+  text-align: left;  
 }
 
 .slider-card-image{
