@@ -51,9 +51,6 @@
   height: 400px;
 }
 
-#main-slider-container{
-  width: 90%;
-}
 
 .slider{
   width: 100%;
@@ -120,7 +117,7 @@
 
 .slider-card{
   width: 320px;
-  height: 550px;
+  height: 540px;
   background: white;
   border-radius: 10px;
   display: inline-block;
@@ -128,11 +125,25 @@
   margin-right: 5px;
   box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 12%);
   cursor: pointer;
+  padding: 10px 60px;
+  bottom: 0;
+
 }
+
+
+
 
 .fecha-noticia{
   color: #5b5b5b;
   text-transform: capitalize;
   font-size: .8em;
   padding: 0 15px;
+}
+
+
+main {
+	margin: 50px auto;
+	overflow: hidden;
+  width: 90%;
+  
 }

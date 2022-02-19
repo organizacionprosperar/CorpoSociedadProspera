@@ -13,8 +13,8 @@ import Directorio from './pages/nuestraInstitucion/directorios';
 import Seccionales from './pages/nuestraInstitucion/seccionales';
 import Simbolos from './pages/nuestraInstitucion/Simbolos';
 import noticias from './pages/Noticias/noticias';
-
-
+import View from "./pages/viewMapa"
+import Pdf from "./pages/pdf"
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // import Home from './pages/home.js';
@@ -39,6 +39,8 @@ function App() {
           <Route path="/seccionales" exact={true} component={Seccionales} />
           <Route path="/simbolos" exact={true} component={Simbolos} />
           <Route path="/noticias" exact={true} component={noticias} />
+          <Route path="/viewMapa" exact={true} component={View} />
+          <Route path="/pdf" exact={true} component={Pdf} />
         </Switch>
         <Footer />
       </Router>

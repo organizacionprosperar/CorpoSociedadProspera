@@ -2,7 +2,7 @@
     display: block;
 }
 
-.page-title h1 {
+.pag-title h1 {
     font-size: 3em;
     font-family: "Montserrat";
     color: #074982;
@@ -58,12 +58,16 @@ b, strong {
 
 
 
-.ins{
+.inst{
     margin: 0 auto;
     display: flex;
     height: auto;
     justify-content: space-around;
-    width: 62%;
+    width: 51%;
+}
+.page-conten{
+    width: 90%;
+    padding-left: 200px;
 }
 
 .all{
@@ -97,3 +101,53 @@ b, strong {
      border-radius: 15px;
 
  }
+
+.listado_default {
+    color: #999;
+    font-size: 14pt;
+    font-family: "Montserrat";
+    margin-top: 30px;
+}
+
+.list-grou {
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.list-grou li {
+    background-color: #efefef;
+    margin-bottom: 5px;
+    border: 3px solid #efefef;
+    border-radius: 5px;
+    list-style: none;
+}
+
+.list-grou-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.list-grou-item:last-child {
+    margin-bottom: 0;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.list-grou-item:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+a.list-grou-item, button.list-grou-item {
+    color: #555;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+    text-align: left;
+}

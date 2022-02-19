@@ -42,7 +42,7 @@ function Navbar() {
                         </a>
                     </li>
                     <li className="nav__item">
-                        <a href="#" className="nav__link">
+                        <a href="/viewMapa" className="nav__link">
                             Mapa
                         </a>
                     </li>

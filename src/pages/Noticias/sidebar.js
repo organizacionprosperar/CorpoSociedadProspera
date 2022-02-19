@@ -1,4 +1,5 @@
 import React from "react";
+import "../../components/style.css"
 
 
 function Sidebar() {
@@ -7,7 +8,7 @@ function Sidebar() {
                 <div className="div_left">
                         <ul className="lista_Menu">
                             <li className="item0">
-                                <a href="#">Noticias</a>
+                                <a href="/">Noticias</a>
                             </li>
                             <li className="item1">
                                 <a href="#">Contenido Fotografico</a>
