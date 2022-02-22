@@ -23,7 +23,7 @@ function Footer() {
                     <br />
                     <li>Direccion: Calle 123A N 8 23 Monteria Córdoba</li>
                     <li>codigo postal:</li>
-                    <li>Horario de atención: Horarios de atención 08:00 A 12 Pm
+                    <li>Horario de atención: Horarios de atención de Lunes a Viernes de 08:00 A 12 Pm
                         14:00 A 17:30 </li>
                     <li>Teléfono: 7948475 </li>
                     <li>Celular: 3138030253 </li>
