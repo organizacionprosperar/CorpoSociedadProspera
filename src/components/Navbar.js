@@ -82,9 +82,7 @@ function Navbar() {
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Transparecia y acceso a nuestra institucion publica</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Atención y servicios a la ciudadania</a>
-                                </li>
+                                
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Participa</a>
                                 </li>

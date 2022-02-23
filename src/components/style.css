@@ -93,6 +93,7 @@ a {
     margin-left: 380px;
     right: 0;
     width: 60vw;
+    
 
       
   }
@@ -100,7 +101,6 @@ a {
     display: block;
     float: right;
     box-sizing: border-box;
-    vertical-align: middle;
 }
 
 .div_left {

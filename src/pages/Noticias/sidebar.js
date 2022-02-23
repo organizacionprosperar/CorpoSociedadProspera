@@ -10,12 +10,7 @@ function Sidebar() {
                             <li className="item0">
                                 <a href="/">Noticias</a>
                             </li>
-                            <li className="item1">
-                                <a href="#">Contenido Fotografico</a>
-                            </li>
-                            <li className="item2">
-                                <a href="#">Sala de Prensa</a>
-                            </li>
+                            
                             <li className="item2">
                                 <a href="#">Participa</a>
                             </li>

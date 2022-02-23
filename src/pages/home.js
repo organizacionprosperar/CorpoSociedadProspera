@@ -85,8 +85,8 @@ class Home extends Component {
                                                 <div className="row">
                                                     <div className='col-sm-12'>
                                                         <div className="slider-card" >
-                                                            <div className="slider-card-image" >{slide.img}</div>
-                                                            <a href='' className="slider-card-title">{slide.title}</a>
+                                                            <img className="slider-card-image" src={slide.img} />
+                                                            <a href={`/${slide.id}/`} className="slider-card-title">{slide.title}</a>
                                                             <p className="fecha-noticia">{slide.date}</p>
                                                             <p className="slider-card-description">{slide.description}</p>
                                                         </div>

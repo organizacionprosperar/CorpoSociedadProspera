@@ -48,7 +48,7 @@ class Noticia extends Component {
 
                                                 <ul className='list-grou'>
                                                     <li>
-                                                        <a href='' className='list-grou-item'>{slide.title}</a>
+                                                        <a href={`/${slide.id}/`} className='list-grou-item'>{slide.title}</a>
                                                     </li>
                                                 </ul>
 

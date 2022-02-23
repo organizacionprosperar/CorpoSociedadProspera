@@ -37,6 +37,8 @@ p {
     margin-inline-end: 0px;
     text-align: center;
     text-align: justify;
+    margin-left: 45px;
+    width: 90%;
 }
 
 .div_descripcion_default {
@@ -150,4 +152,25 @@ a {
     color: #337ab7;
     text-decoration: none;
     text-align: left;
+}
+
+.fecha {
+    font-family: "Montserrat";
+    font-size: 15px;
+    color: #4E4E4E;
+    text-transform: capitalize;
+    margin-left: 45px;
+}
+
+.row {
+    margin-right: -15px;
+    width: 90%;
+}
+
+.div_entradilla_default {
+    font-family: "Montserrat";
+    font-size: 2em;
+    color: #5b5b5b;
+    font-weight: bold;
+    line-height: 30px;
 }

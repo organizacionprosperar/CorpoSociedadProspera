@@ -15,6 +15,7 @@ import Simbolos from './pages/nuestraInstitucion/Simbolos';
 import noticias from './pages/Noticias/noticias';
 import View from "./pages/viewMapa"
 import Pdf from "./pages/pdf"
+import NoticeDetails from "./pages/Noticias/noticeDetails"
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // import Home from './pages/home.js';
@@ -41,6 +42,7 @@ function App() {
           <Route path="/noticias" exact={true} component={noticias} />
           <Route path="/viewMapa" exact={true} component={View} />
           <Route path="/pdf" exact={true} component={Pdf} />
+          <Route path="/:id/" exact={true} component={NoticeDetails} />
         </Switch>
         <Footer />
       </Router>
